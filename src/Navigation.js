@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Navigation.css';
 
 function Navigation() {
+    const [show,handleShow] = useState(false);
     useEffect(() =>{
         window.addEventListener('scroll',()=>{
             if(window.scrollY > 100){
