@@ -1,0 +1,75 @@
+#projects {
+  margin-top: 30px;
+  padding: 10px 30px;
+}
+.projects__title {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.card-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card-2 {
+  min-width: 300px;
+  max-width: 300px;
+  margin: 20px 100px;
+  background-color: #fff;
+  color: #111;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.8s;
+  border-radius: 1rem;
+}
+.card-2:hover {
+  background-color: #111;
+  cursor: pointer;
+  color: #fff;
+}
+.ani__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 150px;
+  min-height: 250px;
+  margin: 10px 80px;
+  background-image: url("./image/birdo.jpg");
+  background-size: cover;
+}
+.ani__container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  min-height: 200px;
+  margin: 35px 10px;
+  background-image: url("./image/league.png");
+  background-size: cover;
+}
+.ani__container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  min-height: 200px;
+  margin: 10px 10px;
+  background-image: url("./image/e-commerce.JPG");
+  background-size: cover;
+}
+.ani__container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  min-height: 200px;
+  margin: 10px 10px;
+  background-image: url("./image/netflix.JPG");
+  background-size: cover;
+}
+@media only screen and (max-width: 1078px) {
+  .card-2 {
+    margin: 20px 20px;
+  }
+}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Oswald&family=Ubuntu&display=swap");
+
+.banner {
+  background-image: url("./image/banner.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center right;
+  object-fit: contain;
+}
+.banner__content {
+  color: #fff;
+  padding-left: 8vw;
+  padding-top: 50vh;
+}
+.banner__button {
+  margin-top: 10px;
+  padding-left: 7vw;
+}
+.title__text {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3.5rem;
+}
+.title__description {
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 2px;
+  font-size: 2rem;
+}
+.animate__text {
+  color: blue;
+}
+
+@media only screen and (max-width: 700px) {
+  .banner__content {
+    padding-top: 60vh;
+  }
+  .title__text {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+  }
+  .title__description {
+    font-size: 1.5rem;
+  }
+}

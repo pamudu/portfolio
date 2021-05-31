@@ -1,0 +1,44 @@
+.services__tile {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.card {
+  max-width: 300px;
+  min-width: 220px;
+  max-height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition: 0.5s;
+}
+.services__firstrow {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+.card__title {
+  text-align: center;
+}
+.card__description {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.card:hover {
+  background-color: #111;
+  color: #fff;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.25);
+}
+
+.ani_container {
+  display: flex;
+  align-items: center;
+  min-height: 200px;
+}
